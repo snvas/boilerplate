@@ -9,10 +9,10 @@
     "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install"
   },
-  "lin-staged":{
-	"src/**/*": [
-		"yarn lint --fix"
-	]
+  "lin-staged": {
+    "src/**/*": [
+      "yarn lint --fix"
+    ]
   },
   "dependencies": {
     "next": "11.1.2",
